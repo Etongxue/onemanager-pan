@@ -4,7 +4,7 @@
 const H = [
     'https://herooneindex.herokuapp.com/',
     'https://onemanager.glitch.me/',
-    'https://onemanager-pan.vercel.app/'
+    'https://onemanager-php.vercel.app/'
 ]
 
 // View Type

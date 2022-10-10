@@ -1087,8 +1087,8 @@ function needUpdate()
     $current_ver = explode(urldecode('%0D'),$current_ver)[0];
     $split = splitfirst($current_version, '.' . $current_ver)[0] . '.' . $current_ver;
     if (!($github_version = getcache('github_version'))) {
-        //$tmp = curl('GET', 'https://raw.githubusercontent.com/Etongxue/onemanager-pan/master/version');
-        $tmp = curl('GET', 'https://git.hit.edu.cn/ysun/onemanager-pan/-/raw/master/version');
+        //$tmp = curl('GET', 'https://raw.githubusercontent.com/qkqpttgf/OneManager-php/master/version');
+        $tmp = curl('GET', 'https://git.hit.edu.cn/ysun/OneManager-php/-/raw/master/version');
         if ($tmp['stat']==0) return 0;
         $github_version = $tmp['body'];
         savecache('github_version', $github_version);
@@ -1907,8 +1907,8 @@ output:
             }
         }
         $frame .= '
-        <a href="https://github.com/Etongxue/onemanager-pan" target="_blank">Github</a>
-<a href="https://git.hit.edu.cn/ysun/onemanager-pan" target="_blank">HIT Gitlab</a><br><br>
+        <a href="https://github.com/qkqpttgf/OneManager-php" target="_blank">Github</a>
+<a href="https://git.hit.edu.cn/ysun/OneManager-php" target="_blank">HIT Gitlab</a><br><br>
 ';
         if (!$canOneKeyUpate) {
             $frame .= '
@@ -1922,8 +1922,8 @@ output:
         <option value="Github" selected>Github</option>
         <option value="HITGitlab">HIT Gitlab</option>
     </select>
-    <input type="text" name="auth" size="6" placeholder="auth" value="Etongxue">
-    <input type="text" name="project" size="12" placeholder="project" value="onemanager-pan">
+    <input type="text" name="auth" size="6" placeholder="auth" value="qkqpttgf">
+    <input type="text" name="project" size="12" placeholder="project" value="OneManager-php">
     <button name="QueryBranchs" onclick="querybranchs(this);return false;">' . getconstStr('QueryBranchs') . '</button>
     <select name="branch">
         <option value="master">master</option>
@@ -1933,7 +1933,7 @@ output:
 
 <script>
     function changeGitSource(d) {
-        if (d.options[d.options.selectedIndex].value=="Github") document.updateform.auth.value = "Etongxue";
+        if (d.options[d.options.selectedIndex].value=="Github") document.updateform.auth.value = "qkqpttgf";
         if (d.options[d.options.selectedIndex].value=="HITGitlab") document.updateform.auth.value = "ysun";
         document.updateform.QueryBranchs.style.display = null;
         document.updateform.branch.options.length = 0;
@@ -1946,7 +1946,7 @@ output:
     function Githubquerybranchs(b) {
         var xhr = new XMLHttpRequest();
         xhr.open("GET", "https://api.github.com/repos/"+document.updateform.auth.value+"/"+document.updateform.project.value+"/branches");
-        //xhr.setRequestHeader("User-Agent","Etongxue/OneManager");
+        //xhr.setRequestHeader("User-Agent","qkqpttgf/OneManager");
         xhr.onload = function(e){
             console.log(xhr.responseText+","+xhr.status);
             if (xhr.status==200) {
@@ -1971,7 +1971,7 @@ output:
         var pro_id;
         var xhr = new XMLHttpRequest();
         xhr.open("GET", "https://git.hit.edu.cn/api/v4/projects");
-        //xhr.setRequestHeader("User-Agent","Etongxue/OneManager");
+        //xhr.setRequestHeader("User-Agent","qkqpttgf/OneManager");
         xhr.onload = function(e){
             //console.log(xhr.responseText+","+xhr.status);
             if (xhr.status==200) {
@@ -2267,8 +2267,8 @@ function render_list($path = '', $files = [])
     $authinfo = '
 <!--
     OneManager: An index & manager of Onedrive auth by ysun.
-    HIT Gitlab: https://git.hit.edu.cn/ysun/onemanager-pan
-    Github: https://github.com/Etongxue/onemanager-pan
+    HIT Gitlab: https://git.hit.edu.cn/ysun/OneManager-php
+    Github: https://github.com/qkqpttgf/OneManager-php
 -->';
     //$authinfo = $path . '<br><pre>' . json_encode($files, JSON_PRETTY_PRINT) . '</pre>';
 

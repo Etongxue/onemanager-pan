@@ -561,7 +561,7 @@ function updateProgram($function_name, $Region, $Namespace, $SecretId, $SecretKe
     return curl('POST', 'https://'.$host, $payload, $headers)['body'];
 }
 
-function OnekeyUpate($GitSource = 'Github', $auth = 'Etongxue', $project = 'onemanager-pan', $branch = 'master')
+function OnekeyUpate($GitSource = 'Github', $auth = 'qkqpttgf', $project = 'OneManager-php', $branch = 'master')
 {
     $source = '/tmp/code.zip';
     $outPath = '/tmp/';
