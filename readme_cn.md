@@ -258,7 +258,7 @@
 
 # 捐赠
 
-  https://paypal.me/Etongxue  
+  https://p.tsuki.icu  
 
 -----
 
