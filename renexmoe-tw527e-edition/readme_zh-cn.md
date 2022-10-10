@@ -60,7 +60,7 @@
 
 ## 📚 使用方法
 
-此版本由 [@TW527E](https://github.com/TW527E) 维护，作用于 [OneManager-php](https://github.com/qkqpttgf/OneManager-php)
+此版本由 [@TW527E](https://github.com/TW527E) 维护，作用于 [onemanager-pan](https://github.com/Etongxue/onemanager-pan)
 
 访问此项目的 [Releases](releases) 页面下载主题文件
 
@@ -69,11 +69,11 @@
 1. 下载 [**`renexmoe-tw527e-edition`**](https://github.com/TW527E/renexmoe-tw527e-edition/releases)
 2. 将 **`renexmoe-tw527e-edition.html`** 复制至 **`/OneManager 根目錄/theme`**
 
-### 🔧 2: 使用我的 OneManager-php
+### 🔧 2: 使用我的 onemanager-pan
 
 1. 登录您的 OneManager 后台，并进入设置
 2. 选择 **`首页`** 页面
-3. 在 **`Update from`** 选择 `Github` `TW527E` `OneManager-php` `master`
+3. 在 **`Update from`** 选择 `Github` `TW527E` `onemanager-pan` `master`
 4. 点击 **`一鍵更新`**
 5. 等待更新，完成
 
@@ -157,7 +157,7 @@
 
 Readme 写法及图片做法来自 [qier222/YesPlayMusic](https://github.com/qier222/YesPlayMusic)
 
-- [qkqpttgf/OneManager-php](https://github.com/qkqpttgf/OneManager-php)
+- [Etongxue/onemanager-pan](https://github.com/Etongxue/onemanager-pan)
 
 - [zdhxiong/mdui](https://github.com/zdhxiong/mdui)
 

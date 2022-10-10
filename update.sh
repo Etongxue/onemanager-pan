@@ -56,16 +56,16 @@ if [ g"$install" != g"1" -a g"$update" != g"1" ]; then
   exit
 fi
 
-gitsource='https://github.com/qkqpttgf/OneManager-php'
+gitsource='https://github.com/Etongxue/onemanager-pan'
 
 OneManagerPath=`cd $(dirname $0);pwd -P`
 cd ${OneManagerPath}
 
 git clone ${branch} ${gitsource}
-[ g"$install" == g"1" ] || \mv -b .data/config.php OneManager-php/.data/
-\mv -b OneManager-php/* ./
-\mv -b OneManager-php/.[^.]* ./
+[ g"$install" == g"1" ] || \mv -b .data/config.php onemanager-pan/.data/
+\mv -b onemanager-pan/* ./
+\mv -b onemanager-pan/.[^.]* ./
 rm -rf *~
 #rm -rf .[^.]*~
-rm -rf OneManager-php
+rm -rf onemanager-pan
 chmod 666 .data/config.php

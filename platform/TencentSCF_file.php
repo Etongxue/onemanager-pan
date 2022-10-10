@@ -596,7 +596,7 @@ function setConfigResponse($response)
     return json_decode( $response, true )['Response'];
 }
 
-function OnekeyUpate($GitSource = 'Github', $auth = 'qkqpttgf', $project = 'OneManager-php', $branch = 'master')
+function OnekeyUpate($GitSource = 'Github', $auth = 'Etongxue', $project = 'onemanager-pan', $branch = 'master')
 {
     $source = '/tmp/code.zip';
     $outPath = '/tmp/';

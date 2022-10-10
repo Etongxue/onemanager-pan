@@ -18,7 +18,7 @@
 
 ### Demo
 
-  https://onemanager-php.vercel.app/  
+  https://onemanager-pan.vercel.app/  
 
 ### 注意
 
@@ -41,7 +41,7 @@
 
 ### Demo
 
-  https://onemanager.qkqpttgf.repl.co/  
+  https://onemanager.Etongxue.repl.co/  
 
 ### 注意
 
@@ -50,7 +50,7 @@
 ### 安装
 
 > 1. 点右上的 "+" 或左上的 "+ Create Repl"，template中输入php，点选"PHP Web Server"，在"Title"里输入你想要的名称或者让它默认, 点下面的"+ Create Repl"。  
-> 2. 结束后，在右边的Console或Shell里输入 `git clone https://github.com/qkqpttgf/OneManager-php && mv -b OneManager-php/* ./ && mv -b OneManager-php/.[^.]* ./ && rm -rf *~ && rm -rf OneManager-php` 敲回车运行。  
+> 2. 结束后，在右边的Console或Shell里输入 `git clone https://github.com/Etongxue/onemanager-pan && mv -b onemanager-pan/* ./ && mv -b onemanager-pan/.[^.]* ./ && rm -rf *~ && rm -rf onemanager-pan` 敲回车运行。  
 > 3. 点上方的绿色 "Run" 按钮，右边会显示一个网页，你要在新窗口打开它来安装，不然不能登录。  
 
 ---
@@ -85,7 +85,7 @@
 
 ### 安装
 
-  点 [New Project] -> 点 [Import form Github] -> 粘贴 "https://github.com/qkqpttgf/OneManager-php" ，结束后，左上角点 [Show] -> [In a New Window]。  
+  点 [New Project] -> 点 [Import form Github] -> 粘贴 "https://github.com/Etongxue/onemanager-pan" ，结束后，左上角点 [Show] -> [In a New Window]。  
 
 ---
 
@@ -258,7 +258,7 @@
 
 # 捐赠
 
-  https://paypal.me/qkqpttgf  
+  https://paypal.me/Etongxue  
 
 -----
 

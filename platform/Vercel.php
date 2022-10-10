@@ -394,7 +394,7 @@ function setConfigResponse($response)
     return json_decode($response, true);
 }
 
-function OnekeyUpate($GitSource = 'Github', $auth = 'qkqpttgf', $project = 'OneManager-php', $branch = 'master')
+function OnekeyUpate($GitSource = 'Github', $auth = 'Etongxue', $project = 'onemanager-pan', $branch = 'master')
 {
     $tmppath = '/tmp';
 

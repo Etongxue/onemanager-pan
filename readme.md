@@ -16,7 +16,7 @@
 
 ### Demo
 
-  https://onemanager-php.vercel.app/  
+  https://onemanager-pan.vercel.app/  
 
 ### Notice
 
@@ -39,7 +39,7 @@
 
 ### Demo
 
-  https://onemanager.qkqpttgf.repl.co/  
+  https://onemanager.Etongxue.repl.co/  
 
 ### Notice
 
@@ -48,7 +48,7 @@
 ### How to Install
 
 > 1. Click the "+" or "Create Repl", find template "PHP Web Server" (via input "php"), input a name for your project in "Title" or left it default, Click the "+ Create Repl".  
-> 2. After done, input `git clone https://github.com/qkqpttgf/OneManager-php && mv -b OneManager-php/* ./ && mv -b OneManager-php/.[^.]* ./ && rm -rf *~ && rm -rf OneManager-php` to Console or Shell on the right, press "Enter" to run it.  
+> 2. After done, input `git clone https://github.com/Etongxue/onemanager-pan && mv -b onemanager-pan/* ./ && mv -b onemanager-pan/.[^.]* ./ && rm -rf *~ && rm -rf onemanager-pan` to Console or Shell on the right, press "Enter" to run it.  
 > 3. Click the green button "Run", it will show the web page on the right, you can open it in a new tab or window.  
 
 ---
@@ -85,7 +85,7 @@
 
 ### How to Install
 
-  [New Project] -> [Import form Github] -> paste "https://github.com/qkqpttgf/OneManager-php" , after done, [Show] -> [In a New Window].  
+  [New Project] -> [Import form Github] -> paste "https://github.com/Etongxue/onemanager-pan" , after done, [Show] -> [In a New Window].  
 
 ---
 
@@ -222,7 +222,7 @@
 
 # A cup of coffee
 
-  https://paypal.me/qkqpttgf  
+  https://paypal.me/Etongxue  
 
 -----
 

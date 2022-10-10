@@ -1,7 +1,7 @@
 {
   "name": "renexmoe-tw527e-edition",
   "version": "1.2.4",
-  "description": "高顏值 OneManager 主題，作用於 OneManager-php，提供多種CDN",
+  "description": "高顏值 OneManager 主題，作用於 onemanager-pan，提供多種CDN",
   "main": "renexmoe-tw527e-edition.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,7 +22,7 @@
     "renexmoe",
     "renexmoe-tw527e-edition",
     "tw527e-edition",
-    "onemanager-php",
+    "onemanager-pan",
     "multi-cdn",
     "jsdelivr-fastly",
     "jsdelivr-gcore",
