@@ -519,7 +519,7 @@
         copyText.select();
         document.execCommand("copy");
         document.getElementById("copyText").remove();
-        mdui.snackbar("已複製到剪貼簿");
+        mdui.snackbar("已复制到剪切板");
       }
 
       document.querySelector("#admin-menu").innerHTML += '<li class="mdui-menu-item"><a class="mdui-ripple" onclick="copyURL()"><i class="mdui-menu-item-icon mdui-icon material-icons">link</i><!--constStr@CopyUrl--></a></li>';
