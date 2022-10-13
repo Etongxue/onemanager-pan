@@ -702,7 +702,7 @@ function filecache($disktag)
             if ( is_writable($tmp) ) $dir = $tmp;
         } elseif ( mkdir($tmp) ) $dir = $tmp;
     }
-    $tag = $_SERVER['HTTP_HOST'] . '/OneManager/' . $disktag;
+    $tag = $_SERVER['HTTP_HOST'] . '/Pan-O/' . $disktag;
     while (strpos($tag, '/')>-1) $tag = str_replace('/', '_', $tag);
     if (strpos($tag, ':')>-1) {
         $tag = str_replace(':', '_', $tag);
@@ -1407,7 +1407,7 @@ function EnvOpt($needUpdate = 0)
     //foreach ($EnvConfigs as $env => $v) if (isCommonEnv($env)) $envs .= '\'' . $env . '\', ';
     $envs = substr(json_encode(array_keys ($EnvConfigs)), 1, -1);
 
-    $html = '<title>OneManager '.getconstStr('Setup').'</title>';
+    $html = '<title>Pan-O '.getconstStr('Setup').'</title>';
     if (isset($_POST['updateProgram'])&&$_POST['updateProgram']==getconstStr('updateProgram')) if (compareadminmd5('admin', getConfig('admin'), $_COOKIE['admin'], $_POST['_admin'])) {
         $response = setConfigResponse(OnekeyUpate($_POST['GitSource'], $_POST['auth'], $_POST['project'], $_POST['branch']));
         if (api_error($response)) {
@@ -1558,7 +1558,7 @@ function EnvOpt($needUpdate = 0)
     if ($_GET['setup']==='cmd') {
         $statusCode = 200;
         $html .= '
-OneManager DIR: ' . __DIR__ . '
+Pan-O DIR: ' . __DIR__ . '
 <form name="form1" method="POST" action="">
     <input id="inputarea" name="cmd" style="width:100%" value="' . htmlspecialchars($_POST['cmd']) . '" placeholder="ls, pwd, cat"><br>
     <input type="submit" value="post">
@@ -1946,7 +1946,7 @@ output:
     function Githubquerybranchs(b) {
         var xhr = new XMLHttpRequest();
         xhr.open("GET", "https://api.github.com/repos/"+document.updateform.auth.value+"/"+document.updateform.project.value+"/branches");
-        //xhr.setRequestHeader("User-Agent","qkqpttgf/OneManager");
+        //xhr.setRequestHeader("User-Agent","qkqpttgf/Pan-O");
         xhr.onload = function(e){
             console.log(xhr.responseText+","+xhr.status);
             if (xhr.status==200) {
@@ -1971,7 +1971,7 @@ output:
         var pro_id;
         var xhr = new XMLHttpRequest();
         xhr.open("GET", "https://git.hit.edu.cn/api/v4/projects");
-        //xhr.setRequestHeader("User-Agent","qkqpttgf/OneManager");
+        //xhr.setRequestHeader("User-Agent","qkqpttgf/Pan-O");
         xhr.onload = function(e){
             //console.log(xhr.responseText+","+xhr.status);
             if (xhr.status==200) {
@@ -2266,7 +2266,7 @@ function render_list($path = '', $files = [])
     date_default_timezone_set(get_timezone($_SERVER['timezone']));
     $authinfo = '
 <!--
-    OneManager: An index & manager of Onedrive auth by ysun.
+    Pan-O: An index & manager of Onedrive auth by ysun.
     HIT Gitlab: https://git.hit.edu.cn/ysun/OneManager-php
     Github: https://github.com/qkqpttgf/OneManager-php
 -->';
@@ -2828,8 +2828,8 @@ function render_list($path = '', $files = [])
 
         $keywords = $n_path;
         if ($p_path!='') $keywords .= ', ' . $p_path;
-        if ($_SERVER['sitename']!='OneManager') $keywords .= ', ' . $_SERVER['sitename'] . ', OneManager';
-        else $keywords .= ', OneManager';
+        if ($_SERVER['sitename']!='Pan-O') $keywords .= ', ' . $_SERVER['sitename'] . ', Pan-O';
+        else $keywords .= ', Pan-O';
         $html = str_replace('<!--Keywords-->', $keywords, $html);
 
         if ($_GET['preview']) {

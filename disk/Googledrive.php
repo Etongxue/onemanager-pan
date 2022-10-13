@@ -138,7 +138,7 @@ class Googledrive {
                                                 //else error_log1('Cant get link:' . json_encode($res, JSON_PRETTY_PRINT));
                                             //}
                                             if ($res['stat']==302) {
-                                                $content1 = curl('GET', $weblink, '', ["User-Agent"=>"qkqpttgf/OneManager 3.0.0", "Accept"=>"*/*"]);
+                                                $content1 = curl('GET', $weblink, '', ["User-Agent"=>"qkqpttgf/Pan-O 3.0.0", "Accept"=>"*/*"]);
                                                 $tmp = null;
                                                 $tmp = json_decode(json_encode($content1), true);
                                                 if ($tmp['body']===null) {
