@@ -1,24 +1,11 @@
-[Readme EN](readme.md)  
+# 【一个整合盘网站】
 
-# 注意：
 
-  请关掉浏览器的翻译。  
-
-  Releases只是当存档在用的，并不是最新代码。  
-
-  请将设置中所有的设置项的说明都读一遍，有些问题就不用问了。  
-
----
-
-# 部署到 Vercel  
+## 部署到 Vercel  
 
 ### 官网
 
   https://vercel.com/  
-
-### Demo
-
-  https://OneManager-php.vercel.app/  
 
 ### 注意
 
@@ -26,23 +13,19 @@
 >
 > 2. Vercel 每天限制 100 次部署。  
 
-### 安装（英文）
+### 安装
 
   https://scfonedrive.github.io/Vercel/Deploy.html   
 
 ---
 
-# 部署到 Replit  
+## 部署到 Replit  
 
 ### 官网
 
   https://repl.it/  
   https://replit.com/  
-
-### Demo
-
-  https://Pan-O.qkqpttgf.repl.co/  
-
+ 
 ### 注意
 
 > 直接`Import from Github`通过`.replit`文件指定php时，网页会空白，有人帮忙解决吗？  
@@ -50,12 +33,12 @@
 ### 安装
 
 > 1. 点右上的 "+" 或左上的 "+ Create Repl"，template中输入php，点选"PHP Web Server"，在"Title"里输入你想要的名称或者让它默认, 点下面的"+ Create Repl"。  
-> 2. 结束后，在右边的Console或Shell里输入 `git clone https://github.com/Etongxue/Pan-O-pan && mv -b Pan-O-pan/* ./ && mv -b Pan-O-pan/.[^.]* ./ && rm -rf *~ && rm -rf Pan-O-pan` 敲回车运行。  
+> 2. 结束后，在右边的Console或Shell里输入 `git clone https://github.com/Etongxue/onemanager-pan && mv -b onemanager-pan/* ./ && mv -b onemanager-pan/.[^.]* ./ && rm -rf *~ && rm -rf onemanager-pan` 敲回车运行。  
 > 3. 点上方的绿色 "Run" 按钮，右边会显示一个网页，你要在新窗口打开它来安装，不然不能登录。  
 
 ---
 
-# ~~部署到 Heroku~~  
+## ~~部署到 Heroku~~  
 
 ## Dyno套餐不再免费  
 
@@ -73,23 +56,20 @@
 
 ---
 
-# 部署到 Glitch  
+## 部署到 Glitch  
 
 ### 官网
 
   https://glitch.com/  
-
-### Demo
-
-  https://Pan-O.glitch.me/  
+ 
 
 ### 安装
 
-  点 [New Project] -> 点 [Import form Github] -> 粘贴 "https://github.com/qkqpttgf/OneManager-php" ，结束后，左上角点 [Show] -> [In a New Window]。  
+  点 [New Project] -> 点 [Import form Github] -> 粘贴 "https://github.com/Etongxue/onemanager-pan" ，结束后，左上角点 [Show] -> [In a New Window]。  
 
 ---
 
-# ~~部署到腾讯无服务器云函数 Serverless Cloud Function (SCF)~~  
+## ~~部署到腾讯无服务器云函数 Serverless Cloud Function (SCF)~~  
 
 ## SCF要收套餐费用了  
 
@@ -122,15 +102,11 @@
 ----
 
 
-# 部署到华为云函数工作流 Function Graph (FG)  
+## 部署到华为云函数工作流 Function Graph (FG)  
 
 ### 官网
 
   https://console.huaweicloud.com/functiongraph/  
-
-### DEMO
-
-  暂无  
 
 ### 注意事项
 
@@ -146,15 +122,12 @@
 
 ----
 
-# 部署到阿里云函数计算 Function Compute (FC)  
+## 部署到阿里云函数计算 Function Compute (FC)  
 
 ### 官网 
 
   https://fc.console.aliyun.com/  
 
-### DEMO
-
-  无  
 
 ### 安装
 
@@ -167,15 +140,12 @@
 
 ---
 
-# 部署到百度云函数计算 Cloud Function Compute (CFC)  
+## 部署到百度云函数计算 Cloud Function Compute (CFC)  
 
 ### 官网
 
   https://console.bce.baidu.com/cfc/#/cfc/functions  
 
-### DEMO
-
-  暂无  
 
 ### 注意事项
 
@@ -192,11 +162,8 @@
 
 ---
 
-# 部署到VPS (Virtual Private Server) 或 空间  
+## 部署到VPS (Virtual Private Server) 或 空间  
 
-### DEMO
-
-暂无
 
 ### 安装
 
@@ -232,7 +199,7 @@
 
 ----
 
-# 功能性文件
+## 功能性文件
 
 ### favicon.ico
 
@@ -256,20 +223,11 @@
 
 ----
 
-# 捐赠
+## 捐赠
 
-  https://paypal.me/qkqpttgf  
+  https://p.tsuki.icu 
 
 -----
 
-# 群聊
-
-  **请看完上面的中英双语再加群，谢谢！**  
-
-### QQ 群:
-
-  212088653  
-
-### Telegram Group
-
-  https://t.me/joinchat/I_RVc0bqxuxlT-d0cO7ozw  
+# 公众号：【Doki同学】
+  
