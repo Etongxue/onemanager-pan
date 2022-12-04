@@ -3,8 +3,8 @@
 // 服务器数组
 const H = [
     'https://herooneindex.herokuapp.com/',
-    'https://Pan-O.glitch.me/',
-    'https://OneManager-php.vercel.app/'
+    'https://onemanager.glitch.me/',
+    'https://onemanager-php.vercel.app/'
 ]
 
 // View Type
