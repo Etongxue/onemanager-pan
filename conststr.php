@@ -924,7 +924,7 @@ $constStr = [
         'ar-sa' => 'دليل أو اسم الملف يحتوي على تحميل فشلت',
     ],
     'defaultSitename' => [
-        'en-us' => 'Pan-O',
+        'en-us' => 'OneManager',
     ],
     'SavingToken' => [
         'en-us' => 'Saving refresh_token!',
@@ -1018,7 +1018,7 @@ $constStr = [
         'zh-tw' => '對一個Onedrive資料夾共享，允許所有人編輯，然後將共享連結填在下方',
     ],
     'CustomIdSecret' => [
-        'en-us' => 'Use custom client id & secret instead of Pan-O default',
+        'en-us' => 'Use custom client id & secret instead of OneManager default',
         'zh-cn' => '用自己申请的应用ID与机密，不用OneManager默认的',
         'zh-tw' => '用自己申請的應用ID與機密，不用OneManager預設的',
         'ja' => 'アプリケーションIDとシークレットを自分で申請する',

@@ -317,12 +317,12 @@ function VercelUpdate($appId, $token, $sourcePath = "")
     $url = "https://api.vercel.com/v13/deployments";
     $header["Authorization"] = "Bearer " . $token;
     $header["Content-Type"] = "application/json";
-    $data["name"] = "Pan-O";
+    $data["name"] = "OneManager";
     $data["project"] = $appId;
     $data["target"] = "production";
     $data["routes"][0]["src"] = "/(.*)";
     $data["routes"][0]["dest"] = "/api/index.php";
-    $data["functions"]["api/index.php"]["runtime"] = "vercel-php@0.5.1";
+    $data["functions"]["api/index.php"]["runtime"] = "vercel-php@0.5.2";
     if ($sourcePath=="") $sourcePath = splitlast(splitlast(__DIR__, "/")[0], "/")[0];
     //echo $sourcePath . "<br>";
     getEachFiles($file, $sourcePath);
