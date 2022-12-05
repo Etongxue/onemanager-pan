@@ -1,8 +1,0 @@
-language = "php74"
-run = "php -S 0.0.0.0:8000 index.php"
-entrypoint = "index.php"
-
-[nix]
-
-[nix.channel]
-channel = "stable-22_05"
